@@ -1,0 +1,103 @@
+/*CSS Page*/
+
+body {
+  background-color: #EFE9F4;
+}
+/*this section styles the header*/
+header{
+  background-color: #755B69;
+  text-align: center;
+  color: lavenderblush;
+  height: 300px;
+}
+h1{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  font-family: Baskerville;
+}
+h2{
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-family: Baskerville;
+}
+main article p{
+  font-size: 15px;
+}
+/*style for the "Hi, I'm Madeleine!" section*/
+#top-section{
+  width: 900px;
+  margin: auto;
+  padding:10px;
+  text-align: center;
+  font-family: 'Times New Roman';
+  color: darkslategray;
+  font-size: 18px;
+}
+
+#middle-section{
+  width: 900px;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Times New Roman';
+  color: darkslategray;
+  text-align:center;
+  font-size: 20px;
+}
+.other-interests{
+  text-align: center;
+}
+
+ul{
+  list-style: inside;
+  text-align: left;
+  font-size: 15px;
+}
+/*this styles the contact section*/
+#bottom-section{
+  width: 900px;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Times New Roman';
+  color: darkslategray;
+}
+.contact-me{
+  text-align: center;
+}
+.contact-me-p{
+  text-align: left;
+}
+ol{
+  list-style: list-item;
+}
+
+footer{
+  background-color: #755B69;
+  text-align: center;
+  color: lavenderblush;
+  height: 30px;
+  padding-top:30px;
+  padding-bottom: 10px;
+}
+/*pseudo element to style the "contact Madeleine" line*/
+.contact-me::first-line{
+  text-decoration: underline;
+}
+/*This styles the navigation bar*/
+nav {
+  align-items: center;
+  margin: 40px auto;
+}
+
+nav a {
+  margin-right: 40px;
+  font-size: 18px;
+  color: #EFE9F4;
+  font-family: Quattrocento, sans-serif;
+}
+/*This shows the color that the nav links will show when hovered over*/
+nav a:hover {
+  color: #777;
+}
+
