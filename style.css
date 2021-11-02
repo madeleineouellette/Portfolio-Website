@@ -96,8 +96,18 @@ nav a {
   color: #EFE9F4;
   font-family: 'Times New Roman';
 }
-/*This shows the color that the nav links will show when hovered over*/
-nav a:hover {
+/*This shows the colors that links will have show up as on what's been done to them*/
+
+a:link {
+  color: cadetblue;
+}
+a:visited {
+  color: darkslategray;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
   color: darkslategray;
 }
 
