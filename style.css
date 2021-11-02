@@ -94,10 +94,10 @@ nav a {
   margin-right: 40px;
   font-size: 18px;
   color: #EFE9F4;
-  font-family: Quattrocento, sans-serif;
+  font-family: 'Times New Roman';
 }
 /*This shows the color that the nav links will show when hovered over*/
 nav a:hover {
-  color: #777;
+  color: darkslategray;
 }
 
